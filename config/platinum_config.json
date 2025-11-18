@@ -1,0 +1,31 @@
+{
+  "business": {
+    "name": "Platinum Roofing Group LLC",
+    "service_area_label": "Arizona residential roofs",
+    "currency": "USD"
+  },
+  "materials": {
+    "shingle": { "label": "Asphalt shingle", "base_per_square": 350 },
+    "tile": { "label": "Tile", "base_per_square": 500 },
+    "metal": { "label": "Metal", "base_per_square": 650 },
+    "flat": { "label": "Flat / foam", "base_per_square": 400 }
+  },
+  "stories": {
+    "one": { "label": "1 story", "multiplier": 1.0 },
+    "two_plus": { "label": "2 or more stories", "multiplier": 1.15 },
+    "attached": { "label": "Townhome / duplex / attached", "multiplier": 1.05 }
+  },
+  "complexity": {
+    "simple": { "label": "Simple roof", "multiplier": 0.95 },
+    "average": { "label": "Average roof", "multiplier": 1.0 },
+    "complex": { "label": "Complex roof", "multiplier": 1.15 }
+  },
+  "tearoff_per_square": 40,
+  "waste_factor": 1.1,
+  "min_job_total": 6500,
+  "range_buffer_percent": 0.1,
+  "repair_ratio": {
+    "min": 0.2,
+    "max": 0.5
+  }
+}
